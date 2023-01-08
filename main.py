@@ -198,7 +198,6 @@ class SudokuSolver:
             result[i // 9][i % 9] = self.partial_assignments[var]
         return result
                
-
 sudoku = SudokuSolver(
     current_sudoku, 
     VARIABLES, 
