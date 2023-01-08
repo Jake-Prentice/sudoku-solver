@@ -50,7 +50,6 @@ VARIABLES = cartesian_product(COLUMN_CHARACTERS, ROW_NUMBERS)
 ARC_CONSTRAINTS = build_arc_constraints()
 NEIGHBOURS = build_neighbours(VARIABLES, ARC_CONSTRAINTS)
 
-
 class SudokuSolver:
     def __init__(self, sudoku, VARIABLES, ARC_CONSTRAINTS, NEIGHBOURS):
         #list of all constraints (in a binary constraint form)
